@@ -1,0 +1,37 @@
+.notificationContainer {
+  position: fixed;
+  right: 0px;
+  width: 27%;
+  min-width: 420px;
+  z-index: 999999;
+  height: auto;
+}
+
+.success {
+  color: green;
+  background: white;
+  border-left: 3px solid #78a752;
+}
+
+.error {
+  color: #d20707;
+  background: white;
+  border-left: 3px solid #d20707;
+}
+
+.warning {
+  color: #e8bb08;
+  background-color: white;
+  border-left: 3px solid #ffcc00;
+}
+
+.info {
+  color: #1d2162;
+  background-color: white;
+  border-left: 3px solid #1d2162;
+}
+
+.default {
+  color: black;
+  background-color: white;
+}

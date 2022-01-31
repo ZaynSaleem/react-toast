@@ -1,0 +1,38 @@
+.boxRightTop {
+  padding: 18px 8px;
+  box-sizing: border-box;
+  transition: 0.8s ease-in-out;
+  width: 400px;
+  word-break: break-all;
+  display: flex;
+  flex-wrap: nowrap;
+  box-shadow: 4px 0px 6px #3b800424;
+  margin: 10px 0px;
+  border-radius: 5px 0px 0px 5px;
+  top: 0px;
+  position: relative;
+  transform: translateX(200%);
+}
+
+.boxRightTop:hover {
+  cursor: pointer;
+}
+
+.hide {
+  transform: translateX(200%);
+}
+
+.show {
+  transform: translateX(0%);
+}
+
+.toastIcon {
+  font-size: 24px;
+  display: flex;
+  padding: 0px 10px;
+  justify-content: center;
+}
+
+.dNone {
+  display: none;
+}
