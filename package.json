@@ -1,20 +1,15 @@
 {
   "name": "react-toast",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "react custom toast",
   "author": "ZaynSaleem",
   "license": "MIT",
-  "repository": {
-    "git": "https://github.com/ZaynSaleem/react-toast"
-  },
+  "repository": "ZaynSaleem/react-toast",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
   "engines": {
     "node": ">=10"
-  },
-  "publishConfig": {
-    "zaynsaleem:registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
